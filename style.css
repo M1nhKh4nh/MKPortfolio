@@ -1,0 +1,40 @@
+#test{
+    background-color: rgb(28, 79, 190);
+    height: 100px;
+}
+
+.steckbriefProperty{
+    list-style-type: none;
+}
+
+.navi{
+    font-size: 30px;
+}
+
+.navicontent{
+    padding-left: 20px;
+}
+
+#steckbriefContent{
+    border: 1px solid black;
+    margin: 40px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.steckbriefFoto{
+    margin-right: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.steckbriefText{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.subtitle{
+    margin: 40px;
+}
