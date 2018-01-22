@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html ng-app>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    </head>
+        <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+            <meta charset="utf-8" />
+            <script src="javascript.js"> </script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        </head>
     <body>
-        <h1>Mein Portfolio</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <h1 class="display-1 mx-auto" style="width: 700px; font-family:Verdana">Mein Portfolio</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navi">
+            <div class="collapse navbar-collapse navicontent" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -22,28 +24,100 @@
                     </li>
                 <!--
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                    </div>
                 </li>
                 -->
                     <li class="nav-item">
                         <a class="nav-link" href="entwicklung.html">Entwicklung</a>
                     </li>
-                    <li class="nav-item activ">
+                    <li class="nav-item active">
                         <a class="nav-link" href="fitness.html">Fitness</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <h2>Fitness</h2>
+        <h1 class="display-3 subtitle">Fitness</h1>
+        <div id="PageContent">
+            
+            
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Bauch</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Bauch.m4v type="video/mp4">
+                                </video>
+                            </div>   
+                        </td>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Bizeps</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Bizeps.m4v type="video/mp4">
+                                </video>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Brust</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Brust.m4v type="video/mp4">
+                                </video>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Rücken</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Ruecken.m4v type="video/mp4">
+                                </video>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Schulter</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Schulter.m4v type="video/mp4">
+                                </video>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="fitnessBox">
+                                <h1 class="fitnessBoxTitle">Trizeps</h1>
+                        
+                                <video class="fitnessVideo" controls>
+                                    <source src=https://files.crosssitefeeding.ch/mk/FitnessVideos/Trizeps.m4v type="video/mp4">
+                                </video>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+                      
+                    
+        </div>
 
         <footer id="test"></footer>
       </body>

@@ -11,11 +11,27 @@
     font-size: 30px;
 }
 
+.fitnessVideo{
+    width: 520px; 
+    height: 540px; 
+}
+
 .navicontent{
     padding-left: 20px;
 }
 
-#steckbriefContent{
+.fitnessBoxTitle{
+    text-align: center;
+}
+
+.fitnessBox{
+    display: inline-block;
+    margin: 100px;
+    border: 1px solid black;
+    margin-left: 150px;
+}
+
+#PageContent{
     border: 1px solid black;
     margin: 40px;
     height: auto;
@@ -23,9 +39,11 @@
 }
 
 .steckbriefFoto{
-    margin-right: 50px;
-    margin-top: 50px;
     display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 40px;
 }
 
 .steckbriefText{
@@ -38,3 +56,30 @@
 .subtitle{
     margin: 40px;
 }
+
+.parallax {
+    
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first {
+	/* The image used */
+    background-image: url("http://jllsly.com/wallpapers/epic-wallpaper-wide-Is-Cool-Wallpapers.jpg");
+}
+
+#second {
+	/* The image used */
+    background-image: url("https://i.ytimg.com/vi/3TAUnYZpMbA/maxresdefault.jpg");
+    height: 1300px;
+}
+
+
+
