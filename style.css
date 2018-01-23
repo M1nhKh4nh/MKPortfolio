@@ -72,14 +72,23 @@
 
 #first {
 	/* The image used */
-    background-image: url("http://jllsly.com/wallpapers/epic-wallpaper-wide-Is-Cool-Wallpapers.jpg");
+    background-image: url("CollageFirst.png");
+    height: 1300px;
 }
 
 #second {
 	/* The image used */
-    background-image: url("https://i.ytimg.com/vi/3TAUnYZpMbA/maxresdefault.jpg");
+    background-image: url("Kind2.jpg");
     height: 1300px;
 }
 
+.parallaxTitle{
+    text-align: center;
+}
+
+.parallaxBox{
+    background-color: red;
+    margin-bottom: -8px;
+}
 
 
